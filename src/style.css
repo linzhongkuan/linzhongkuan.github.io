@@ -63,7 +63,7 @@
         @apply text-2xl font-bold 
     }
     h3 {
-        @apply text-xl font-bold
+        @apply text-xl font-bold text-Dark dark:text-slate-200
     }
     h4 {
         @apply text-lg
