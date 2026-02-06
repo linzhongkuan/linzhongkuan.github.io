@@ -116,6 +116,8 @@
         .basicNav { 
             @apply 
             flex px-8 items-center
+            transition-none
+            lg:transition
         }
         .mobileNav { 
             @apply border-b
@@ -163,7 +165,8 @@
     }
     .projCard {
         @apply border-2 rounded-md px-2 my-3
-        transition
+        transition-none
+        lg:transition
         cursor-pointer
     }
     #showMore {
