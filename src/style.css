@@ -21,7 +21,7 @@
         @apply overflow-x-hidden font-[arial] scroll-smooth motion-reduce:scroll-auto
     }
     * {
-        @apply transition-[background-color] duration-300 motion-reduce:transition-none!
+        @apply transition-[background-color] duration-200 motion-reduce:transition-none!
     }
     body {
         @apply transition-[color] duration-100
